@@ -602,6 +602,15 @@ projects:
         - *module_if
         - *module_hic_stm32f103xb
         - records/board/ublox_evk_odin_w2.yaml
+    stm32f103xb_tile_tiledap_bl:
+        - *module_bl
+        - records/hic_hal/stm32f103xb.yaml
+        - records/board/tile_tiledap_bl.yaml
+    stm32f103xb_tile_tiledap_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/tile_tiledap.yaml
+        - records/usb/usb-bulk.yaml
 
 
     # Test projects
