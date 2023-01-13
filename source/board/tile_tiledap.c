@@ -26,7 +26,6 @@ const board_info_t g_board_info = {
     .info_version = kBoardInfoVersion,
     .board_id = "0000",
     .family_id = kStub_HWReset_FamilyID,
-    .target_cfg = &target_device,
     .board_vendor = "TILE",
     .board_name = "TILEDAP",
 };
